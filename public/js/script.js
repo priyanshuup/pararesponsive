@@ -19,8 +19,8 @@ musicbtn.addEventListener("click", function(){
     audio.play();
     musiccontainer.style.display = "flex";
     musiccontainer.style.opacity = "1";
-    cntnrtxt.style.top ='75%'
-    cntnrtxt.style.opacity='0'
+    cntnrtxt.style.top ='77%'
+    // cntnrtxt.style.opacity='0'
     musicbtnclose.style.display = "block"
     audioplay.play();
 });
@@ -33,7 +33,7 @@ musicbtnclose.addEventListener("click", function(){
     musiccontainer.style.display = "none"
     musicbtnclose.style.display = "none"
     cntnrtxt.style.top='50%'
-    cntnrtxt.style.opacity='1'
+    // cntnrtxt.style.opacity='1'
 
 })
 
