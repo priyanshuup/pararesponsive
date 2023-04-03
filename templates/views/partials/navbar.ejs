@@ -1,0 +1,45 @@
+<script>
+   $(document).on('click',function(){ 
+    $('.navbar .collapse').collapse('hide');})
+</script>
+<div class="container-fluid main_menu">
+  <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+          <nav class="navbar navbar-dark bg-transparent">
+              <a class="pklogo" href="/"> <img src="./img/logo/W-Logo.png" alt=""> </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" 
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" 
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">   
+              </span>
+            
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/gallery">GALLERY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/videos">VIDEO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a onclick="reloadPage()" class="nav-link" href="/#musicpage">MUSIC</a>
+                  </li>
+                  <li class="nav-item">
+                    <a onclick="reloadPage()" class="nav-link" href="/#events">EVENTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a onclick="reloadPage()" class="nav-link" href="/#contactus">CONTACT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/shop">SHOP</a>
+                  </li>
+              </div>
+          </nav>
+      </div>
+  </div>
+</div>
