@@ -260,8 +260,10 @@ html,body {
     height: 10vh;
   }
   #aboutPk #roww .gcntner .imggallery{
-    max-height: 45vh;
-    min-width: 35vw;
+    height: 40vh;
+    width: 35vw;
+    min-height: 30vh;
+    min-width: 15vw;
   }
   #aboutPk #roww .gcntner{
     top: 10vh;
@@ -310,6 +312,7 @@ html,body {
   background-color: #000;
   gap: 2vh;
   opacity: 0.2;
+  flex-wrap: nowrap;
 }
 #musicpage #musiccontainer #hind{
   position: relative;
@@ -334,10 +337,10 @@ html,body {
 }
 
 #musicpage #musiccontainer .ri-close-fill{
-  font-size: 10vh;
+  font-size: 6vh;
   position: absolute;
   color: white;
-  top: 1vh;
+  top: 3vh;
   right: inherit;
   cursor: pointer;
 }
@@ -515,8 +518,10 @@ html,body {
   }
 
   #aboutPk #roww .gcntner .imggallery{
-    max-height: 35vh;
-    min-width: 25vw;
+    height: 35vh;
+    width: 25vw;
+    min-height: 30vh;
+    min-width: 15vw;
   }
   
   #aboutPk #roww .gcntner{
@@ -564,6 +569,7 @@ html,body {
   text-align: center;
   background-color: #000000;
   opacity: 0.2;
+  flex-wrap: nowrap;
 }
 #musicpage #musiccontainer #hind{
   position: relative;
@@ -586,10 +592,10 @@ html,body {
 }
 
 #musicpage #musiccontainer .ri-close-fill{
-  font-size: 4.5vh;
+  font-size: 6vh;
   position: absolute;
   color: white;
-  top: 1vh;
+  top: 3vh;
   right: inherit;
   cursor: pointer;
 }
@@ -1185,6 +1191,7 @@ html,body {
       }
         #hind{
           height: 40vh;
+          min-width: 15vw;
           position: relative;
           display: flex;
           align-items: center;
@@ -1229,7 +1236,9 @@ html,body {
         .clhne{
           position: relative;
           height: 40vh;
+          min-height: 25vh;
           width: 45vh;
+          min-width: 30vh;
           /* overflow: hidden; */
           display: flex;
           flex-direction: column;
@@ -1247,6 +1256,7 @@ html,body {
 
         #engcnt{
           height: 40vh;
+          min-width: 15vw;
           position: relative;
           display: flex;
           align-items: center;
