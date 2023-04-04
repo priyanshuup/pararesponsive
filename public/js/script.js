@@ -1,4 +1,4 @@
-const musicbtn = document.querySelector(".ri-play-circle-line")
+const musicbtn = document.querySelector(".cntnrtxt .ri-play-circle-line")
 const audioplay = document.getElementById("autoplay")
 
 const musiccontainer = document.querySelector("#musiccontainer")
@@ -19,10 +19,10 @@ musicbtn.addEventListener("click", function(){
     audio.play();
     musiccontainer.style.display = "flex";
     musiccontainer.style.opacity = "1";
-    cntnrtxt.style.top ='77%'
-    // cntnrtxt.style.opacity='0'
+    cntnrtxt.style.top ='78%'
     musicbtnclose.style.display = "block"
     audioplay.play();
+    musicbtn.style.display='none'
 });
 
 musicbtnclose.addEventListener("click", function(){
@@ -32,9 +32,8 @@ musicbtnclose.addEventListener("click", function(){
     document.querySelector(".popupenglish").style.display = "none";
     musiccontainer.style.display = "none"
     musicbtnclose.style.display = "none"
-    cntnrtxt.style.top='50%'
-    // cntnrtxt.style.opacity='1'
-
+    cntnrtxt.style.top='40%'
+    musicbtn.style.display='block'
 })
 
 hindinpunjabi.addEventListener("click",function(){
@@ -56,6 +55,7 @@ english.addEventListener("click",function(){
     musicbtnclose.style.display = "none"
     popuphindi.style.display = "none"
 })
+
 
 io.addEventListener("click",function(){
     audio.play();
