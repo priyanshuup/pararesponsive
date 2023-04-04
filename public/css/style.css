@@ -1458,6 +1458,7 @@ html,body {
               }
       
               .slide-content{
+                width: 70vw;
                 /* padding: 45px 20px; */
                 margin: 0 40px;
                 /* background-color: green; */
