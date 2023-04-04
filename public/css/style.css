@@ -508,7 +508,7 @@ html,body {
 }
 
  }
- @media(min-width: 851px) and (max-width:1400px){
+ @media(min-width: 851px) and (max-width:1200px){
 
   .logo{
     height: 12vh;
