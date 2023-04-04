@@ -1426,7 +1426,7 @@ html,body {
   /* width: 100vw; */
   overflow: hidden;
   background-image: url(https://images.unsplash.com/photo-1510763639472-84b43714b7a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
-/*   background-color: #efe4e4; */
+  /* background-color: #efe4e4; */
   background-size: cover;
   background-position: center;
 }
@@ -1442,7 +1442,7 @@ html,body {
                 border-radius: 10px;
                 overflow: hidden;
                 animation: eventup 4s cubic-bezier(0.19, 1, 0.22, 1);
-/*                 background-color: #265DF2; */
+                /* background-color: #265DF2; */
                 /* border: 2px solid rgb(255, 252, 248); */
       
               }
@@ -1454,20 +1454,19 @@ html,body {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-/*                 background-color: gray; */
+                /* background-color: gray; */
               }
       
               .slide-content{
-                width: 90vw;
-                padding: 45px 20px;
+                /* padding: 45px 20px; */
                 margin: 0 40px;
-/*                 background-color: green; */
+                /* background-color: green; */
                 overflow: hidden;
                 /* border-radius: 25px; */
               }
       
               .card{
-                width: 420px;
+                /* width: 420px; */
                 border-radius: 25px;
                 /* background-color: #e02626; */
                 color: white;
